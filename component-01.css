@@ -1,1 +1,51 @@
-component
+body {
+	font-family: Lucida Grande, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.header-right {
+	display: flex;
+	padding: 0;
+	list-style: none;
+	justify-content: flex-end;
+}
+
+.header-right li {
+	padding: 8px 16px;
+	height: 100%;
+}
+
+.header-right li:last-child {
+	background-color: #FFF;
+	border-radius: 15px;
+	box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.11);
+}
+
+.icon-submenu:hover .submenu {
+	display: block;
+}
+
+.submenu {
+	list-style: none;
+	padding: 0;
+	line-height: 25px;
+	box-shadow: -3px 3px 5px 0px rgba(0,0,0,0.11);
+	padding-right: 15px;
+	display: none;
+}
+
+.icon-submenu {
+	padding: 8px 16px;
+	position: relative;
+}
+
+.icon {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.icon svg {
+	padding: 5px 5px;
+}
+
